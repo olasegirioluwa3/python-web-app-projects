@@ -1,0 +1,23 @@
+/* styles.css */
+.error-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Makes the container take up the full viewport height */
+    text-align: center; /* Center-align text within the container */
+}
+
+/* Style the H1, P, and Img within the container */
+.error-container h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.error-container p {
+    font-size: 1.2em;
+}
+
+.error-container img {
+    margin-top: 20px; /* Add some spacing below the paragraph */
+}
