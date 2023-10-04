@@ -1,5 +1,6 @@
 import dash
-from dash import dcc, html
+from dash import html
+from dash import dcc
 from dash.dependencies import Input, Output
 # from dash_bootstrap_components import dbc
 import dash_bootstrap_components as dbc
@@ -14,7 +15,6 @@ import page404
 import components.navbar
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, '/assets/styles/styles.css'])
-# app = dash.Dash(__name__, external_stylesheets=[])
 
 
 # Create the navbar using the create_navbar function
